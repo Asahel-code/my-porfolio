@@ -12,7 +12,12 @@ module.exports = {
       'xs': '250px',
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary_color: "#E1B7BF", //text color
+        bg_color: "#45335D",
+      },
+    }
   },
   plugins: [],
 }

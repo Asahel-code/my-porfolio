@@ -1,14 +1,19 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import Helmet from "../components/general/Helmet";
+import About from "../components/home/About";
+import Contact from "../components/home/Contact";
+import Index from "../components/home/Index";
+import Project from "../components/home/Project";
+import UserLayout from "../components/UserLayout";
 
 const Home = () => {
   return (
-  <Helmet title="Home">
-    <Box>
-        
-    </Box>
-  </Helmet>
+    <UserLayout>
+      <Index />
+      <About />
+      <Project />
+      <Contact />
+    </UserLayout>
   );
 };
 

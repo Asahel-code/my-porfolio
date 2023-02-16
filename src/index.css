@@ -17,3 +17,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.shrink {
+  top:0 !important;
+  height: 70px;
+  box-shadow: #E1B7BF 0px 8px 24px;
+  z-index: 100;
+}
+
