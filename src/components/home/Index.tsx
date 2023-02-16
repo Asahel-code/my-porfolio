@@ -6,7 +6,7 @@ import { BsWhatsapp } from "react-icons/bs";
 const Index = () => {
   const handleWhatsapp = () => {
     window.open(
-      ` https://web.whatsapp.com/send?phone=254711959117&text=Hi%20Asahel%2C%0D%20I%20just%20viewed%20your%20porfolio`,
+      ` https://api.whatsapp.com/send/?phone=%2B254711959117&text=Hi%20Asahel%2C%0D%20I%20just%20viewed%20your%20porfolio`,
       "_blank"
     );
   };
